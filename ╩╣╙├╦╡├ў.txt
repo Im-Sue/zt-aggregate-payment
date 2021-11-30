@@ -1,0 +1,18 @@
+1、数据库文件在/fox_pay.sql
+2、php框架为ThinkPHP6.0，先composer install安装依赖扩展
+3、数据库连接配置文件是/.env文件
+4、后台管理的前端是VueAdmin+ElementUI框架，源码在/public/vue-admin
+   先npm install安装依赖，开发环境的接口域名在vue.config.js配置，
+   生产环境的接口在.env.production文件里
+5、正式使用，请把调试模式关闭：/.env文件第一行，改为APP_DEBUG = false
+6、正式商用建议使用独立版，微擎框架高并发性能不强
+---------------------------------------
+其他开发文档，参考官方文档：
+ThinkPHP6.0
+https://www.kancloud.cn/manual/thinkphp6_0/1037479
+
+vue-admin:
+https://panjiachen.github.io/vue-element-admin-site/zh/guide/
+
+elementUI:
+https://element.eleme.cn/#/zh-CN/component/installation

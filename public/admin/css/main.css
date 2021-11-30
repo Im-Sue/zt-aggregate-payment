@@ -1,0 +1,49 @@
+.el-pagination {
+  padding: 10px !important;
+}
+
+.el-table td, .el-table th {
+  padding: 8px 0 !important;
+}
+
+.el-table td .el-button--mini {
+  padding: 4px 10px !important;
+}
+
+.text-primary {
+  color: #409EFF !important;
+}
+.text-danger {
+  color: #F56C6C !important;
+}
+.text-green {
+  color: #52bf00 !important;
+}
+.text-gray {
+  color: #aaaaaa !important;
+}
+
+.my-dialog {
+  border-radius: 12px !important;
+  overflow: hidden;
+  max-width: 96%;
+}
+.my-dialog .el-dialog__header {
+  padding: 12px 20px;
+  background: #f2f4f6;
+}
+.my-dialog .el-dialog__header .el-dialog__title {
+  font-size: 16px;
+}
+.my-dialog .el-dialog__header .el-dialog__headerbtn {
+  font-size: 18px;
+  top: 15px;
+}
+.my-dialog .el-dialog__body {
+  padding: 20px;
+}
+.my-dialog .el-dialog__footer {
+  text-align: center;
+  padding: 12px 20px;
+  border-top: 1px solid #eee;
+}
